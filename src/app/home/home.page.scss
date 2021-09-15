@@ -1,0 +1,138 @@
+* {
+  font-size: 100%;
+  font-family: 'Roboto', sans-serif; //Não ta funcionando
+}
+
+::-webkit-scroll,
+*::-webkit-scrollbar {
+  display: none;
+}
+
+ion-content {
+  --offset-bottom: auto !important;
+  --overflow: hidden;
+  overflow: auto;
+  &::-webkit-scrollbar {
+    display: block;
+  }
+}
+
+ion-card {
+  margin-left: 22px;
+  margin-right: 22px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.imgs {
+  height: 229px;
+  width: 370px;
+}
+
+.games {
+  margin-top: 15px;
+}
+
+.Fav {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 22px;
+  // color: black; //Descomentar essa linha caso esteja usando browser light
+}
+h2 {
+  font-weight: 700;
+  line-height: 16.41px;
+  font-size: 14px;
+  color: #676767;
+}
+
+p {
+  font-weight: 500;
+  line-height: 10.55px;
+  font-size: 9px;
+  color: #676767;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  color: #676767;
+  text-align-last: left;
+}
+ion-card-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.04em;
+  color: #676767;
+  text-align-last: left;
+}
+.profile-photo {
+  border-radius: 50%;
+}
+
+.alg {
+  justify-content: center;
+  display: grid;
+  align-self: center;
+}
+
+.icon-container {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.status-circle {
+  width: 13.31px;
+  height: 13.31px;
+  border-radius: 50%;
+  background-color: #98ff59;
+
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+.btnd {
+  width: 130px;
+  height: 50px;
+  border: none;
+  --background: #ff2929;
+}
+
+.btnp {
+  width: 130px;
+  height: 50px;
+  --background: #50e81a;
+}
+.ion-text-center {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  font: icon;
+}
+
+.ellipse {
+  font-size: 2em;
+  display: block;
+  text-align: center;
+}
+.align-grid {
+  display: block;
+  margin-left: 25px;
+}
+
+.align-row {
+  text-align-last: start;
+}
